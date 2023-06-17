@@ -21,12 +21,12 @@ mamba env create -f artic-rabv/environment.yml
 
 * Use this command to activate your environment  
 ```bash
-source activate artic-rabv  
+conda activate artic-rabv  
 ```
 
 * To update your environment after changes to environment file
 ```bash
-conda env update --file artic-rabv/environment.yml
+mamba env update --file artic-rabv/environment.yml
 ```
 
 # Primer schemes  
